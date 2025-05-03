@@ -1,0 +1,818 @@
+[22:04:24] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.14
+[22:04:24] [ForkJoinPool-1-worker-3/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:04:24] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+ - Mod 'Dynamic FPS' (dynamic_fps) 3.9.3 recommends any version of cloth-config, which is missing!
+	 - You should install any version of cloth-config for the optimal experience.
+ - Mod 'Sodium Extra' (sodium-extra) 0.5.9+mc1.20.1 recommends version 1.4.2 or later of reeses-sodium-options, which is missing!
+	 - You should install version 1.4.2 or later of reeses-sodium-options for the optimal experience.
+[22:04:24] [main/INFO]: Loading 174 mods:
+	- ambientsounds 6.1.9
+	- architectury 9.2.14
+	- athena 3.1.2
+	- axiom 4.7.1
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   \-- com_moulberry_mixinconstraints 1.0.8
+	- badoptimizations 2.2.2
+	- bookshelf 20.2.13
+	- chat_heads 0.13.18
+	- chipped 3.0.7
+	- controlling 12.0.2
+	- copycats 2.2.2+mc.1.20.1-fabric
+	- create 0.5.1-j-build.1631+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.11-4
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_config 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_utility 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_client_events 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_obj_loader 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_tool_actions 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_fluids 2.3.8+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- creativecore 2.12.33
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- cubes-without-borders 3.0.0+mc1.20
+	- debugify 1.20.1+2.0
+	- distanthorizons 2.3.2-b
+	- drippyloadingscreen 3.0.12
+	- dynamic_fps 3.9.3
+	   \-- net_lostluma_battery 1.3.0
+	- enhancedblockentities 0.9+1.20
+	   |-- advanced_runtime_resource_pack 0.6.7
+	   \-- spruceui 5.0.0+1.20
+	- entityculling 1.7.4
+	- fabric-api 0.92.5+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.66+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.6+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.4+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.13+13a40c6677
+	   |-- fabric-networking-v0 0.3.53+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.23+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.5+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.32+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- fancymenu 3.5.0
+	   |-- com_github_keksuccino_japng 0.5.3
+	   \-- com_github_rtyley_animated-gif-lib-for-java animated-gif-lib-1.7
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.2
+	- immediatelyfast 1.5.0+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- immersiveui 0.3.0
+	- indium 1.0.36+mc1.20.1
+	- iris 1.7.6+mc1.20.1
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 17
+	- konkrete 1.8.1
+	- lazydfu 0.1.3
+	- lithium 0.11.3
+	- melody 1.0.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- modernfix 5.21.0+mc1.20.1
+	- modernui 3.11.1.6
+	   |-- com_github_ben-manes_caffeine_caffeine 3.1.7
+	   |-- com_vladsch_flexmark_flexmark 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-ast 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-builder 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-collection 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-data 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-dependency 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-format 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-html 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-misc 0.64.8
+	   |-- com_vladsch_flexmark_flexmark-util-sequence 0.64.8
+	   \-- com_vladsch_flexmark_flexmark-util-visitor 0.64.8
+	- modmenu 7.2.2
+	- moonlight 1.20-2.13.83
+	- mousetweaks 2.26
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
+	- presencefootsteps 1.10.1+1.20.1
+	   \-- kirin 1.15.6+1.20.1
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- searchables 1.0.3
+	- skinlayers3d 1.7.5
+	- sodium 0.5.13+mc1.20.1
+	- sodium-extra 0.5.9+mc1.20.1
+	   \-- caffeineconfig 1.3.0+1.17
+	- sound_physics_remastered 1.20.1-1.4.12
+	- spiffyhud 3.0.0
+	- voicechat 1.20.1-2.5.30
+	- worldedit 7.2.15+6463-5ca4dff
+	- yet_another_config_lib_v3 3.1.0+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-io 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0-SNAPSHOT
+	   \-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
+[22:04:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Nathan/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[22:04:25] [main/INFO]: Compatibility level set to JAVA_17
+[22:04:25] [main/INFO]: Loading Mixin Plugin for Axiom/4.7.1
+[22:04:25] [main/INFO]: Loading config file
+[22:04:25] [main/INFO]: Config version: 4
+[22:04:25] [main/INFO]: BadOptimizations config dump:
+[22:04:25] [main/INFO]: enable_toast_optimizations: true
+[22:04:25] [main/INFO]: ignore_mod_incompatibilities: false
+[22:04:25] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[22:04:25] [main/INFO]: enable_lightmap_caching: true
+[22:04:25] [main/INFO]: enable_particle_manager_optimization: true
+[22:04:25] [main/INFO]: enable_entity_renderer_caching: true
+[22:04:25] [main/INFO]: log_config: true
+[22:04:25] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[22:04:25] [main/INFO]: config_version: 4
+[22:04:25] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[22:04:25] [main/INFO]: enable_block_entity_renderer_caching: true
+[22:04:25] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[22:04:25] [main/INFO]: enable_entity_flag_caching: true
+[22:04:25] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[22:04:25] [main/INFO]: enable_sky_color_caching: true
+[22:04:25] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[22:04:25] [main/INFO]: show_f3_text: true
+[22:04:25] [main/INFO]: Preloading Debugify
+[22:04:26] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
+[22:04:26] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:04:26] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 65 options available, 0 override(s) found
+[22:04:26] [main/INFO]: Applying Nashorn fix
+[22:04:26] [main/INFO]: Iris API installed...
+[22:04:26] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:04:26] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[22:04:26] [main/INFO]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[22:04:26] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[22:04:26] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[22:04:27] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/DefaultChunkRenderer (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/chunk/DefaultChunkRenderer)
+[22:04:27] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[22:04:27] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[22:04:27] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[22:04:27] [main/WARN]: Force disabled MC-176559 because it's conflicting with: fabric-api
+[22:04:27] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[22:04:27] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[22:04:27] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[22:04:27] [main/WARN]: Error loading class: traben/entity_model_features/models/parts/EMFModelPart (java.lang.ClassNotFoundException: traben/entity_model_features/models/parts/EMFModelPart)
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[22:04:28] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[22:04:28] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[22:04:28] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[22:04:28] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[22:04:28] [main/INFO]: I used the json to destroy the json
+[22:04:28] [main/INFO]: Searching for graphics cards...
+[22:04:28] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce GTX 1650', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0fb2df354c49e826\nvoglv64.dll', openglIcdVersion=32.0.15.7270}
+[22:04:28] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[22:04:28] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[22:04:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:04:33] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22:04:33] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22:04:33] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[22:04:37] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[22:04:37] [main/INFO]: Vanilla bootstrap took 7027 milliseconds
+[22:04:38] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:04:39] [Render thread/INFO]: Setting user: Suiveurtag
+[22:04:39] [Render thread/INFO]: Bypassed Mojang DFU
+[22:04:39] [Render thread/INFO]: Initializing Axiom/4.7.1. Build timestamp: 1743401935902
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[22:04:41] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[22:04:43] [Render thread/WARN]: Discarding @Unique public method getOffset in porting_lib_extensions.mixins.json:client.VertexFormatMixin from mod porting_lib_extensions because it already exists in net.minecraft.class_293
+[22:04:46] [Render thread/INFO]: Enabled 66 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-12829, MC-14923, MC-22882, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-140646, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
+[22:04:46] [Render thread/INFO]: Successfully Debugify'd your game!
+[22:04:46] [Render thread/INFO]: [DRIPPY LOADING SCREEN] Loading v3.0.12 in client-side mode on FABRIC!
+[22:04:46] [Render thread/INFO]: [FANCYMENU] Loading v3.5.0 in client-side mode on FABRIC!
+[22:04:46] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[22:04:46] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[22:04:46] [Render thread/INFO]: [MELODY] Loading Melody background audio library..
+[22:04:46] [Render thread/WARN]: Signature is missing
+[22:04:46] [Render thread/INFO]: Modern UI common config loaded/reloaded
+[22:04:46] [Render thread/INFO]: Initialized Modern UI
+[22:04:46] [Thread-2/INFO]: Modern UI common config loaded/reloaded
+[22:04:46] [Thread-2/INFO]: Modern UI common config loaded/reloaded
+[22:04:46] [Render thread/INFO]: Loaded config moonlight-client.json
+[22:04:46] [Render thread/INFO]: Registering S2C receiver with id octolib:config_sync
+[22:04:47] [Render thread/INFO]: [SPIFFY HUD] Loading v3.0.0 in client-side mode on FABRIC!
+[22:04:47] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_trialAvailable_FancyMenu()Z should be static as its target is
+[22:04:47] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_hasUnreadNews_FancyMenu()Z should be static as its target is
+[22:04:47] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_hasUnseenNotifications()Z should be static as its target is
+[22:04:47] [Render thread/INFO]: fancymenu.mixins.json:client.IMixinRealmsNotificationsScreen from mod fancymenu->@Accessor[FIELD_GETTER]::get_validClient_FancyMenu()Z should be static as its target is
+[22:04:47] [Render thread/INFO]: [voicechat] Compatibility version 18
+[22:04:47] [Render thread/INFO]: [voicechat] Loading plugins
+[22:04:47] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[22:04:47] [Render thread/INFO]: [voicechat] Initializing plugins
+[22:04:47] [Render thread/INFO]: Initializing Simple Voice Chat integration
+[22:04:47] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[22:04:47] [Render thread/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[22:04:48] [Render thread/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3e6939c1]
+[22:04:48] [Render thread/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[22:04:48] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[22:04:48] [Render thread/WARN]: disabled "Before Name" rendermode due to incompatibility with modernui
+[22:04:48] [Render thread/INFO]: Loading Description Cache
+[22:04:49] [Render thread/INFO]: Initializing Distant Horizons client.
+[22:04:49] [Render thread/INFO]: Distant Horizons, Version: 2.3.2-b
+[22:04:49] [Render thread/INFO]: Registering Fabric Client Events
+[22:04:49] [Render thread/INFO]: Registering Fabric Server Events
+[22:04:49] [Render thread/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
+[22:04:49] [Render thread/INFO]: Registered mod compatibility accessor for: [iris].
+[22:04:49] [Render thread/INFO]: Distant Horizons client Initialized.
+[22:04:49] [Render thread/INFO]: Initialising config for DistantHorizons
+[22:04:49] [Render thread/INFO]: Config for DistantHorizons initialised
+[22:04:49] [Render thread/INFO]: Dynamic FPS 3.9.3 active on Fabric!
+[22:04:50] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[22:04:50] [Render thread/INFO]: Iris detected.
+[22:04:50] [Render thread/INFO]: Modern UI client config loaded/reloaded
+[22:04:50] [Thread-2/INFO]: Modern UI client config loaded/reloaded
+[22:04:50] [Render thread/INFO]: Modern UI text config loaded/reloaded
+[22:04:50] [Thread-2/INFO]: Modern UI text config loaded/reloaded
+[22:04:50] [Render thread/INFO]: Created TextLayoutEngine
+[22:04:50] [Render thread/INFO]: Created MuiFabricApi
+[22:04:50] [Render thread/INFO]: Initialized Modern UI text engine
+[22:04:50] [Render thread/INFO]: Initialized Modern UI client
+[22:04:50] [Worker-Main-1/INFO]: Checking mod updates...
+[22:04:50] [Render thread/INFO]: Initialized block sets in 34ms
+[22:04:50] [Render thread/INFO]: Loaded config moonlight-common.json
+[22:04:51] [Render thread/INFO]: Initialized color sets in 87ms
+[22:04:51] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[22:04:51] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[22:04:51] [Render thread/INFO]: Reloading reverb parameters
+[22:04:51] [Render thread/INFO]: [voicechat] Loading Opus
+[22:04:51] [Render thread/INFO]: Queuing DH event binding...
+[22:04:51] [Render thread/INFO]: DH Ready, binding Iris event handlers...
+[22:04:51] [Render thread/INFO]: DH Iris events bound.
+[22:04:51] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[22:04:52] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[22:04:52] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[22:04:52] [DH-ApplyConfigPresetTimer/INFO]: preset active: LOW_IMPACT
+[22:04:52] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[22:04:52] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[22:04:52] [Worker-Main-1/INFO]: Update available for 'yet_another_config_lib_v3@3.1.0+1.20', (-> 3.6.6+1.20.1-fabric)
+[22:04:52] [Render thread/INFO]: Promoted to OpenGL 4.6 Core Profile
+[22:04:52] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[22:04:53] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[22:04:53] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[22:04:53] [Render thread/INFO]: OpenGL Version: 4.6.0 NVIDIA 572.70
+[22:04:53] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[22:04:53] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
+[22:04:53] [Render thread/INFO]: Initializing ImmediatelyFast 1.5.0+1.20.4 on NVIDIA GeForce GTX 1650/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 572.70
+[22:04:53] [Render thread/INFO]: Found Iris/Oculus 1.7.6+mc1.20.1. Enabling compatibility.
+[22:04:53] [Render thread/INFO]: Identified OpenGL vendor: NVIDIA
+[22:04:53] [Render thread/INFO]: Identified OpenGL driver: NVIDIA
+[22:04:53] [Render thread/INFO]: Using OpenGL 4.6 and GLSL 4.50
+[22:04:53] [Render thread/INFO]: Use NV_conservative_raster
+[22:04:53] [Render thread/INFO]: Use NV_blend_equation_advanced_coherent
+[22:04:53] [Render thread/INFO]: OpenGL vendor: NVIDIA Corporation
+[22:04:53] [Render thread/INFO]: OpenGL renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[22:04:53] [Render thread/INFO]: OpenGL version: 4.6.0 NVIDIA 572.70
+[22:04:53] [Render thread/INFO]: OpenGL caps: 
+AnisotropySupport: true
+GpuTracingSupport: false
+ConservativeRasterSupport: true
+TextureBarrierSupport: true
+DepthClipNegativeOneToOne: true
+BlendEquationSupport: ADVANCED_COHERENT
+ClampToBorderSupport: true
+MaxRenderTargetSize: 32768
+MaxPreferredRenderTargetSize: 32768
+MaxVertexAttributes: 16
+MaxVertexBindings: 16
+MaxTextureSize: 32768
+MaxPushConstantsSize: 0
+MaxColorAttachments: 8
+MinUniformBufferOffsetAlignment: 256
+MinStorageBufferOffsetAlignment: 16
+ShaderCaps:
+	TargetAPI: OPENGL_4_5
+	GLSLVersion: GLSL_450
+	SPIRVVersion: SPIRV_1_0
+	FMASupport: true
+	DualSourceBlendingSupport: true
+	PreferFlatInterpolation: true
+	VertexIDSupport: true
+	InfinitySupport: true
+	NonConstantArrayIndexSupport: true
+	BitManipulationSupport: true
+	NoPerspectiveInterpolationSupport: true
+	ReducedShaderMode: false
+	TextureQueryLod: true
+	UseUniformBinding: true
+	UseVaryingLocation: true
+	UseBlockMemberOffset: true
+	UsePrecisionModifiers: false
+	RequiresLocalOutputColorForFBFetch: false
+	MustObfuscateUniformColor: false
+	MustWriteToFragColor: false
+	ColorSpaceMathNeedsFloat: false
+	AvoidDfDxForGradientsWhenPossible: false
+	SecondaryOutputExtension: null
+	AdvBlendEqInteraction: 1
+	MaxFragmentSamplers: 32
+Vendor: NVIDIA
+Driver: NVIDIA
+MaxFragmentUniformVectors: 1024
+MaxTextureMaxAnisotropy: 16.0
+SupportsProtected: false
+SkipErrorChecks: true
+MaxLabelLength: 256
+DebugSupport: true
+BufferStorageSupport: true
+DrawElementsBaseVertexSupport: true
+BaseInstanceSupport: true
+DSASupport: true
+InvalidateBufferType: 2
+InvalidateFramebufferSupport: true
+VertexAttribBindingSupport: true
+CopyImageSupport: true
+SPIRVSupport: true
+ViewCompatibilityClassSupport: true
+TexStorageSupport: true
+ProgramBinarySupport: true
+ProgramBinaryFormats: [36385]
+GLSLVersion: 460
+ColorTypeToBackendFormat:
+	UNKNOWN=>GLenum [0x0]
+	BGR_565=>RGB565
+	R_8=>R8
+	RG_88=>RG8
+	RGB_888=>RGB8
+	RGBX_8888=>GLenum [0x0]
+	RGBA_8888=>RGBA8
+	BGRA_8888=>RGBA8
+	RGBA_8888_SRGB=>SRGB8_ALPHA8
+	RGBA_1010102=>RGB10_A2
+	BGRA_1010102=>RGB10_A2
+	R_16=>GLenum [0x0]
+	R_F16=>GLenum [0x0]
+	RG_1616=>RG16
+	RG_F16=>RG16F
+	RGBA_16161616=>RGBA16
+	RGBA_F16=>RGBA16F
+	RGBA_F16_CLAMPED=>RGBA16F
+	RGBA_F32=>GLenum [0x0]
+	ALPHA_8=>R8
+	ALPHA_16=>R16
+	ALPHA_F16=>R16F
+	GRAY_8=>R8
+	GRAY_ALPHA_88=>RG8
+	ABGR_8888=>GLenum [0x0]
+	ARGB_8888=>GLenum [0x0]
+CompressionTypeToBackendFormat: [null, {mBackend=OpenGL, mFormat=ETC2}, {mBackend=OpenGL, mFormat=RGB8_BC1}, {mBackend=OpenGL, mFormat=RGBA8_BC1}]
+
+[22:04:53] [Render thread/INFO]: UI manager initialized
+[22:04:53] [Render thread/INFO]: Debug functionality is disabled.
+[22:04:53] [Render thread/INFO]: OpenGL 4.5 detected, enabling DSA.
+[22:04:53] [Render thread/INFO]: ARRP register - before vanilla
+[22:04:53] [Render thread/INFO]: ARRP register - after vanilla
+[22:04:53] [Render thread/INFO]: ARRP register - before user
+[22:04:54] [Render thread/WARN]: Method overwrite conflict for getModel in fabric-model-loading-api-v1.mixins.json:BakedModelManagerMixin from mod fabric-model-loading-api-v1, previously written by foundationgames.enhancedblockentities.mixin.BakedModelManagerMixin. Skipping method.
+[22:04:54] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[22:04:54] [Render thread/INFO]: Hardware information:
+[22:04:54] [Render thread/INFO]: CPU: 12x 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+[22:04:54] [Render thread/INFO]: GPU: NVIDIA GeForce GTX 1650/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 572.70)
+[22:04:54] [Render thread/INFO]: OS: Windows 11 (10.0)
+[22:04:55] [UI thread/INFO]: UI thread initialized in 1645ms
+[22:04:55] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
+[22:04:55] [Render thread/INFO]: Preloaded modern text shaders
+[22:04:55] [Render thread/INFO]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
+[22:04:56] [Render thread/INFO]: Creating new TamagotchiEasterEgg with screen size: 0x0
+[22:04:56] [Render thread/INFO]: Initialized 2 GUI buttons
+[22:04:56] [Render thread/INFO]: Delaying buddy state loading until screen size is properly set
+[22:04:57] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[22:04:57] [Render thread/INFO]: Invalidating pack caches
+[22:04:57] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (advanced_runtime_resource_pack, ambientsounds, axiom, badoptimizations, bookshelf, caffeineconfig, chat_heads, chipped, controlling, copycats, create, creativecore, cubes-without-borders, debugify, distanthorizons, drippyloadingscreen, dripstone_fluid_lib, dynamic_fps, enhancedblockentities, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fancymenu, flywheel, forgeconfigapiport, immediatelyfast, immersiveui, indium, iris, konkrete, lazydfu, lithium, milk, modernfix, modernui, modmenu, moonlight, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, presencefootsteps, reach-entity-attributes, registrate-fabric, searchables, skinlayers3d, sodium, sodium-extra, sound_physics_remastered, spiffyhud, spruceui, voicechat, worldedit, yet_another_config_lib_v3), Moonlight Mods Dynamic Assets, file/Iris Buttons Everywhere.1-42.zip
+[22:04:57] [Render thread/INFO]: closing rrp ebe:base_resources
+[22:04:57] [Render thread/INFO]: ARRP register - before vanilla
+[22:04:57] [Render thread/INFO]: ARRP register - after vanilla
+[22:04:57] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 8 ms
+[22:04:57] [Worker-ResourceReload-9/INFO]: Scanned emoji shortcodes: 6923
+[22:04:57] [Render thread/INFO]: [DRIPPY LOADING SCREEN] Initializing fonts for text rendering..
+[22:04:57] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: drippy_loading_overlay
+[22:04:57] [Worker-ResourceReload-2/INFO]: Scanned emoji map size: 3581
+[22:04:57] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font 'minecraft:alt' in pack: 'vanilla'
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font bundle: 'minecraft:font/alt.json', font set: [minecraft:include/space,minecraft:font/ascii_sga.png]
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font 'minecraft:default' in pack: 'vanilla'
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font bundle: 'minecraft:font/default.json', font set: [minecraft:include/space,minecraft:include/default]
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font 'minecraft:illageralt' in pack: 'vanilla'
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font bundle: 'minecraft:font/illageralt.json', font set: [minecraft:include/space,minecraft:font/asciillager.png]
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font 'minecraft:include/default' in pack: 'vanilla'
+[22:04:57] [Worker-ResourceReload-1/INFO]: Loaded raw font bundle: 'minecraft:font/include/default.json', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[22:04:57] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded raw font 'minecraft:include/space' in pack: 'vanilla'
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded raw font bundle: 'minecraft:font/include/space.json', font set: [minecraft:include/space / minecraft:space]
+[22:04:58] [Render thread/INFO]: Checking for Distant Horizons update
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:include/space', font set: [minecraft:include/space / minecraft:space]
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:include/default', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:default', font set: [minecraft:include/space / minecraft:space,minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:illageralt', font set: [minecraft:include/space / minecraft:space,minecraft:font/asciillager.png]
+[22:04:58] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:alt', font set: [minecraft:include/space / minecraft:space,minecraft:font/ascii_sga.png]
+[22:04:58] [Render thread/INFO]: Distant Horizons already up to date.
+[22:04:58] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[22:04:58] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[22:04:59] [Render thread/INFO]: Using DearImGui config: config\axiom\imgui.ini
+[22:04:59] [Render thread/INFO]: Post-Initializing Mod
+[22:04:59] [Render thread/INFO]: Mod Post-Initialized
+[22:04:59] [Render thread/INFO]: UI renderer initialized
+[22:04:59] [Render thread/INFO]: Loaded smart SDF text shaders
+[22:04:59] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 3, locale: en_US, layout RTL: false
+[22:05:00] [Render thread/INFO]: Loaded AmbientEngine 'basic' v3.1.3. 11 dimension(s), 11 features, 11 blockgroups, 2 sound collections, 37 regions, 58 sounds, 11 sound categories, 5 solids and 2 biome types
+[22:05:00] [Worker-Main-11/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[22:05:01] [Render thread/ERROR]: Pack "Shrimple_v0.12.zip" is not valid! Can't load it.
+[22:05:01] [Render thread/WARN]: Falling back to normal rendering without shaders because the shaderpack could not be loaded
+[22:05:12] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[22:05:12] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22:05:12] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Voicemeeter Input (VB-Audio Voicemeeter VAIO)
+[22:05:12] [Render thread/INFO]: Initializing Sound Physics
+[22:05:12] [Render thread/INFO]: EFX Extension recognized
+[22:05:12] [Render thread/INFO]: Max auxiliary sends: 4
+[22:05:12] [Render thread/INFO]: Aux slot 1 created
+[22:05:12] [Render thread/INFO]: Aux slot 2 created
+[22:05:12] [Render thread/INFO]: Aux slot 3 created
+[22:05:12] [Render thread/INFO]: Aux slot 4 created
+[22:05:12] [Render thread/INFO]: EFX ready
+[22:05:12] [Render thread/INFO]: Sound engine started
+[22:05:12] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[22:05:12] [ForkJoinPool.commonPool-worker-1/INFO]: Redirect registered font 'mui-i18n-compat' to 'modernui:mui-i18n-compat'
+[22:05:12] [ForkJoinPool.commonPool-worker-2/INFO]: Redirect registered font 'JetBrains Mono Medium' to 'modernui:jetbrains-mono-medium'
+[22:05:12] [ForkJoinPool.commonPool-worker-1/INFO]: Registered font 'mui-i18n-compat', location 'modernui:font/muii18ncompat/muii18ncompat.ttf' in pack: 'fabric'
+[22:05:12] [ForkJoinPool.commonPool-worker-2/INFO]: Registered font 'JetBrains Mono Medium', location 'modernui:font/jetbrains-mono-medium.ttf' in pack: 'fabric'
+[22:05:12] [ForkJoinPool.commonPool-worker-3/INFO]: Redirect registered font 'Source Han Sans CN Medium' to 'modernui:source-han-sans-cn-medium'
+[22:05:12] [ForkJoinPool.commonPool-worker-3/INFO]: Registered font 'Source Han Sans CN Medium', location 'modernui:font/source-han-sans-cn-medium.otf' in pack: 'fabric'
+[22:05:12] [Render thread/INFO]: Font 'Noto Sans' failed to load or invalid
+[22:05:12] [Render thread/INFO]: Font 'San Francisco' failed to load or invalid
+[22:05:12] [Render thread/INFO]: Font 'Open Sans' failed to load or invalid
+[22:05:12] [Render thread/INFO]: Font 'SimHei' failed to load or invalid
+[22:05:12] [Render thread/INFO]: Font 'STHeiti' failed to load or invalid
+[22:05:12] [Render thread/INFO]: Loaded typeface: FontCollection{mFamilies=[Google Noto Color Emoji, Source Han Sans CN Medium, Segoe UI Variable, Segoe UI, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
+[22:05:12] [Render thread/INFO]: Reloaded glyph manager
+[22:05:12] [Render thread/INFO]: Reloaded text layout engine, res level: 3 to 3, locale: en_US, layout RTL: false
+[22:05:12] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:05:13] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:05:14] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22:05:15] [Render thread/WARN]: Shader moonlightmoonlight_markertext_alpha_color could not find sampler named Sampler2 in the specified shader program.
+[22:05:15] [Render thread/WARN]: Shader moonlightmoonlight_markertext_alpha_color could not find uniform named IViewRotMat in the specified shader program.
+[22:05:15] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:05:15] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:05:15] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:05:15] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[22:05:15] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[22:05:15] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[22:05:15] [Render thread/INFO]: Loaded 51 train hat configurations.
+[22:05:15] [Render thread/INFO]: Loaded all shader sources.
+[22:05:16] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[22:05:18] [Render thread/WARN]: Game took 55.311 seconds to start
+[22:05:30] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: generic_dirt_message_screen
+[22:05:30] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[22:05:30] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: connect_screen
+[22:05:30] [Render thread/INFO]: Connecting to 83.143.117.29, 20737
+[22:05:36] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld}]-[1fkisboqv02e4@minecraft:overworld].
+[22:05:36] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[22:05:36] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[22:05:36] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[22:05:37] [Render thread/INFO]: Started 6 worker threads
+[22:05:37] [Render thread/INFO]: Started 6 worker threads
+[22:05:37] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: receiving_level_screen
+[22:05:37] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[22:05:37] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[22:05:37] [Render thread/INFO]: Initializing Sound Physics
+[22:05:37] [Render thread/INFO]: EFX Extension recognized
+[22:05:37] [Render thread/INFO]: Max auxiliary sends: 2
+[22:05:37] [Render thread/INFO]: Aux slot 1 created
+[22:05:37] [Render thread/INFO]: Aux slot 2 created
+[22:05:37] [Render thread/INFO]: Aux slot 3 created
+[22:05:37] [Render thread/INFO]: Aux slot 4 created
+[22:05:37] [Render thread/INFO]: EFX ready
+[22:05:37] [Render thread/INFO]: Client on ClientOnly mode connecting.
+[22:05:37] [Render thread/INFO]: Started DhWorld of type CLIENT_ONLY
+[22:05:37] [Render thread/INFO]: Loading [1] waiting client level wrappers.
+[22:05:37] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld}]-[1fkisboqv02e4@minecraft:overworld].
+[22:05:37] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [1fkisboqv02e4@minecraft:overworld]-[C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld]...
+[22:05:37] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[22:05:37] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[22:05:38] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld} with saves at [ClientOnlySaveStructure@(C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld)]
+[22:05:38] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[22:05:38] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: spiffy_overlay
+[22:05:38] [Netty Client IO #0/INFO]: Server level key received: [1fkisboqv02e4@minecraft:overworld].
+[22:05:38] [Netty Client IO #0/INFO]: Server time offset: [-987] ms
+[22:05:38] [Netty Client IO #0/INFO]: Connection config has been changed: [SessionConfig{values={generation.enable=true, generation.maxRequestDistance=4096, generation.bounds.x=0, generation.bounds.z=0, generation.bounds.radius=0, generation.requestRateLimit=20, realTimeUpdates.enable=true, realTimeUpdates.playerDistance=256, syncOnLoad.enable=true, syncOnLoad.maxRequestDistance=4096, syncOnLoad.rateLimit=50, common.maxDataTransferSpeed=500}}].
+[22:05:38] [Render thread/INFO]: Stopping worker threads
+[22:05:38] [Render thread/INFO]: Started 6 worker threads
+[22:05:38] [Render thread/INFO]: Creating GLProxy... If this is the last message you see there must have been an OpenGL error.
+[22:05:38] [Render thread/INFO]: Lod Render OpenGL version [4.6.0 NVIDIA 572.70].
+[22:05:38] [Render thread/INFO]: minecraftGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: [true] <- REQUIRED
+Vertex Attribute Buffer Binding: [true] <- optional improvement
+Buffer Storage: [true] <- optional improvement
+
+[22:05:39] [Render thread/INFO]: GPU Vendor [NVIDIA CORPORATION], Preferred upload method is [BUFFER_STORAGE].
+[22:05:39] [Render thread/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
+[22:05:39] [Render thread/INFO]: Setting up renderer
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[22:05:39] [Render thread/INFO]: Renderer setup complete
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 8
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:39] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:39] [Render thread/ERROR]: Error executing task on Client
+java.lang.IllegalStateException: Missing registry: ResourceKey[minecraft:root / moonlight:soft_fluids]
+	at net.minecraft.class_5455.method_30534(class_5455.java:26) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5455.method_30530(class_5455.java:26) ~[client-intermediary.jar:?]
+	at net.mehvahdjukaar.moonlight.api.fluids.SoftFluidRegistry.getRegistry(SoftFluidRegistry.java:34) ~[moonlight-1.20-2.13.83-fabric.jar:?]
+	at net.mehvahdjukaar.moonlight.core.Moonlight.registerBuiltinFluidBehavior(Moonlight.java:177) ~[moonlight-1.20-2.13.83-fabric.jar:?]
+	at net.mehvahdjukaar.moonlight.api.util.DispenserHelper.lambda$reload$1(DispenserHelper.java:107) ~[moonlight-1.20-2.13.83-fabric.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at net.mehvahdjukaar.moonlight.api.util.DispenserHelper.reload(DispenserHelper.java:107) ~[moonlight-1.20-2.13.83-fabric.jar:?]
+	at net.mehvahdjukaar.moonlight.core.Moonlight.afterDataReload(Moonlight.java:134) ~[moonlight-1.20-2.13.83-fabric.jar:?]
+	at net.fabricmc.fabric.api.event.lifecycle.v1.CommonLifecycleEvents.lambda$static$0(CommonLifecycleEvents.java:33) ~[fabric-lifecycle-events-v1-2.2.2+1802ada577-f0da28253951162f.jar:?]
+	at net.minecraft.class_634.handler$caj000$fabric-lifecycle-events-v1$hookOnSynchronizeTags(class_634.java:10316) ~[client-intermediary.jar:?]
+	at net.minecraft.class_634.method_11126(class_634.java:1544) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2790.method_12001(class_2790.java:35) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2790.method_11054(class_2790.java:11) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:22) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:156) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:115) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1175) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-1.20.1-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105) ~[NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[NewLaunch.jar:?]
+[22:05:40] [Render thread/INFO]: Loaded 9 advancements
+[22:05:40] [Render thread/INFO]: Unloading non-keyed level: [1fkisboqv02e4@minecraft:overworld].
+[22:05:40] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[1fkisboqv02e4@minecraft:overworld].
+[22:05:40] [Render thread/INFO]: Unloading level DhClientLevel{1fkisboqv02e4@minecraft:overworld}
+[22:05:40] [Render thread/INFO]: Shutting down ClientRenderState
+[22:05:40] [Render thread/INFO]: Shutting down LodRenderer...
+[22:05:40] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[22:05:40] [Render thread/INFO]: Shutting down LodQuadTree...
+[22:05:40] [Render thread/INFO]: Finished shutting down LodQuadTree
+[22:05:40] [Render thread/INFO]: Finished shutting down LodRenderer
+[22:05:40] [Render thread/INFO]: Shutting down LodQuadTree...
+[22:05:40] [Render thread/INFO]: Finished shutting down LodQuadTree
+[22:05:40] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[22:05:40] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[22:05:40] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{1fkisboqv02e4@minecraft:overworld}].
+[22:05:40] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{1fkisboqv02e4@minecraft:overworld}].
+[22:05:40] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld\DistantHorizons.sqlite]...
+[22:05:40] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld\DistantHorizons.sqlite]
+[22:05:40] [DH-Parent Update Queue [1fkisboqv02e4@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [1fkisboqv02e4@minecraft:overworld] Thread[0]] terminated.
+[22:05:40] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld}]
+[22:05:40] [Render thread/INFO]: Loading level with key: [1fkisboqv02e4@minecraft:overworld].
+[22:05:40] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld}]-[1fkisboqv02e4@minecraft:overworld].
+[22:05:40] [Render thread/INFO]: Loading level [1fkisboqv02e4@minecraft:overworld] with key: [1fkisboqv02e4@minecraft:overworld].
+[22:05:40] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [1fkisboqv02e4@minecraft:overworld]-[C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld]...
+[22:05:40] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[22:05:40] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[22:05:40] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld} with saves at [ClientOnlySaveStructure@(C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld;C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld)]
+[22:05:40] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[22:05:40] [Render thread/INFO]: [voicechat] Received secret
+[22:05:40] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '83.143.117.29:24454'
+[22:05:40] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:40] [Render thread/INFO]: [System] [CHAT] [Simple Voice Chat] Press V to set up
+[22:05:40] [Render thread/INFO]: Setting up renderer
+[22:05:40] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:40] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:40] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:40] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:40] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[22:05:40] [Render thread/INFO]: Renderer setup complete
+[22:05:40] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:40] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:40] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:40] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:40] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[22:05:40] [Render thread/INFO]: Loading shader with type: [35633]
+[22:05:40] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:40] [Render thread/INFO]: Loading shader with type: [35632]
+[22:05:40] [Render thread/INFO]: Shader loaded sucessfully.
+[22:05:40] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[22:05:40] [Render thread/INFO]: Renderer Cleanup Started
+[22:05:40] [Render thread/INFO]: Renderer Cleanup Complete
+[22:05:41] [Render thread/INFO]: Set world gen queue for level [1fkisboqv02e4@minecraft:overworld].
+[22:05:41] [Render thread/INFO]: Read framebuffer has sample count 0
+[22:05:41] [Render thread/INFO]: Using blit function glBlitNamedFramebuffer
+[22:05:41] [Render thread/INFO]: Using filter parameter GL_LINEAR
+[22:05:41] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:42] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:43] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:44] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:45] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:46] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:47] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:48] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:49] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[22:05:50] [VoiceChatAuthenticationThread/WARN]: [voicechat] Trying to authenticate voice chat connection (this message will not be logged again)
+[22:05:50] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: game_mode_switcher_screen
+[22:05:51] [Render thread/INFO]: [System] [CHAT] Set own game mode to Spectator Mode
+[22:05:52] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[22:05:56] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[22:05:56] [Render thread/INFO]: Stopping!
+[22:05:56] [Render thread/INFO]: Saving configuration (client stopping)...
+[22:05:56] [Render thread/INFO]: [voicechat] Clearing audio channels
+[22:05:56] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[22:05:56] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
+[22:05:56] [Render thread/INFO]: Unloading level [1fkisboqv02e4@minecraft:overworld].
+[22:05:56] [Render thread/INFO]: Shutting down ClientRenderState
+[22:05:56] [Render thread/INFO]: Shutting down LodRenderer...
+[22:05:56] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[22:05:56] [Render thread/INFO]: Shutting down LodQuadTree...
+[22:05:56] [Render thread/INFO]: Finished shutting down LodQuadTree
+[22:05:56] [Render thread/INFO]: Finished shutting down LodRenderer
+[22:05:56] [Render thread/INFO]: Shutting down LodQuadTree...
+[22:05:56] [Render thread/INFO]: Finished shutting down LodQuadTree
+[22:05:56] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[22:05:56] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[22:05:57] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{1fkisboqv02e4@minecraft:overworld}].
+[22:05:57] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{1fkisboqv02e4@minecraft:overworld}].
+[22:05:57] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld\DistantHorizons.sqlite]...
+[22:05:57] [DH-Parent Update Queue [1fkisboqv02e4@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [1fkisboqv02e4@minecraft:overworld] Thread[0]] terminated.
+[22:05:57] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:C:\Users\Nathan\AppData\Roaming\PrismLauncher\instances\Schedule I\minecraft\Distant_Horizons_server_data\83%2E143%2E117%2E2920737\1fkisboqv02e4@minecraft@@overworld\DistantHorizons.sqlite]
+[22:05:57] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@1fkisboqv02e4@minecraft:overworld}]
+[22:05:57] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[22:05:57] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[22:05:57] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[22:05:57] [Render thread/INFO]: Closing all [0] database connections...
+[22:05:57] [Render thread/WARN]: Handler (icyllis.modernui.core.Handler) {59b977c5} sending message to a Handler on a dead thread
+java.lang.IllegalStateException: Handler (icyllis.modernui.core.Handler) {59b977c5} sending message to a Handler on a dead thread
+	at icyllis.modernui.core.MessageQueue.enqueueMessage(MessageQueue.java:391) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.core.Handler.enqueueMessage(Handler.java:496) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.core.Handler.sendMessageAtTime(Handler.java:472) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.core.Handler.sendMessageDelayed(Handler.java:450) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.core.Handler.post(Handler.java:252) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.mc.UIManager.resize(UIManager.java:984) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.mc.UIManager.lambda$new$1(UIManager.java:190) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at icyllis.modernui.mc.MuiModApi.dispatchOnWindowResize(MuiModApi.java:503) ~[ModernUI-Fabric-1.20.1-3.11.1.6-universal.jar:?]
+	at net.minecraft.class_1041.handler$edj000$modernui$onSetGuiScale(class_1041.java:607) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1041.method_15997(class_1041.java) ~[client-intermediary.jar:?]
+	at de.keksuccino.fancymenu.util.rendering.RenderingUtils.resetGuiScale(RenderingUtils.java:237) ~[fancymenu_fabric_3.5.0_MC_1.20.1.jar:?]
+	at net.minecraft.class_310.handler$cif000$fancymenu$headSetScreenFancyMenu(class_310.java:13598) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1507(class_310.java) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_18098(class_310.java:2209) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_18096(class_310.java:2181) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_18099(class_310.java:2158) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1490(class_310.java:1105) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:266) ~[minecraft-1.20.1-client.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105) ~[NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[NewLaunch.jar:?]
+[22:05:57] [Render thread/INFO]: Unloading client level [ServerKeyedClientLevel]-[1fkisboqv02e4@minecraft:overworld].
+[22:05:57] [Render thread/INFO]: Stopping worker threads
+[22:05:57] [Render thread/INFO]: closing rrp ebe:base_resources

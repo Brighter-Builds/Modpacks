@@ -1,0 +1,32 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI {
+}
+
+net.minecraft.class_412 {
+}
+
+net.minecraft.class_419 {
+}
+
+de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
+}
+
+net.minecraft.class_481 {
+}
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_3928 {
+}
+

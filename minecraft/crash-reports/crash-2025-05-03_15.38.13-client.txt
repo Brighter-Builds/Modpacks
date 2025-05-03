@@ -1,0 +1,395 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2025-05-03 15:38:13
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'dynamiccrosshair' at 'mod.crend.dynamiccrosshair.fabric.DynamicCrosshairFabric'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:403)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:401)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+	Suppressed: java.lang.NoClassDefFoundError: dev/isxander/yacl3/config/v2/api/ConfigClassHandler
+		at knot//dev.imb11.sounds.config.utils.ConfigGroup.load(ConfigGroup.java:36)
+		at java.base/java.util.HashMap$Values.forEach(HashMap.java:1065)
+		at knot//dev.imb11.sounds.config.SoundsConfig.loadAll(SoundsConfig.java:29)
+		at knot//dev.imb11.sounds.SoundsClient.init(SoundsClient.java:33)
+		at knot//dev.imb11.sounds.loaders.fabric.SoundsFabric.onInitializeClient(SoundsFabric.java:10)
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+		... 9 more
+	Caused by: java.lang.ClassNotFoundException: dev.isxander.yacl3.config.v2.api.ConfigClassHandler
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+		at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+		at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+		... 15 more
+Caused by: java.lang.NoClassDefFoundError: dev/isxander/yacl3/config/v2/api/ConfigClassHandler
+	at knot//mod.crend.libbamboo.opt.WithYacl.<init>(WithYacl.java:28)
+	at knot//mod.crend.libbamboo.opt.ConfigStore.init(ConfigStore.java:147)
+	at knot//mod.crend.libbamboo.opt.ConfigStore.<init>(ConfigStore.java:87)
+	at knot//mod.crend.dynamiccrosshair.config.ConfigHandler.<clinit>(ConfigHandler.java:13)
+	at knot//mod.crend.dynamiccrosshair.DynamicCrosshairMod.init(DynamicCrosshairMod.java:28)
+	at knot//mod.crend.dynamiccrosshair.fabric.DynamicCrosshairFabric.onInitializeClient(DynamicCrosshairFabric.java:18)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: dev.isxander.yacl3.config.v2.api.ConfigClassHandler
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 16 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:403)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:401)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:API avancées Windows 32:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:Bibliothèque de contrôles de l’expérience utilisateur:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.22621.4746 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.22621.3593 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS DLL de l’API Client:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		DWMAPI.DLL:API du Gestionnaire de fenêtres du Bureau Microsoft:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.22621.5185 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.22621.5185 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:API de l’application d’assistance IP:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:DLL du client API BASE Windows NT:10.0.22621.5124 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:DLL du client API BASE Windows NT:10.0.22621.5124 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.25030.2 (000028f0c1f345a538ea89b768605447f1c02bdf):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.22621.4746 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:Microsoft OLE pour Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:DLL d’assistance du profil d’alimentation:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:DLL d’application d’assistance Windows pour les données de performance:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Runtime d’appel de procédure distante:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:DLL commune du shell Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.22621.5124 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:DLL client de l’API uilisateur de Windows multi-utilisateurs:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.29.30139.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Services HTTP Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:DLL API MCI:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.22621.3527 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:Fichier DLL du client de compatibilité des applications:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		bcrypt.dll:Bibliothèque de primitives de chiffrement Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.22621.4317 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM pour Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:Service client DHCP:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:Client DHCPv6:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:API en mode utilisateur FWP/IPsec:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		iertutil.dll:Utilitaire à l’exécution pour Internet Explorer:11.00.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		imgui-java64.dll
+		java.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		javaw.exe:OpenJDK Platform binary:17.0.8.0:Microsoft
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		jli.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		jna10690810945293012514.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		jvm.dll:OpenJDK 64-Bit server VM:17.0.8.0:Microsoft
+		kernel.appcore.dll:AppModel API Host:10.0.22621.3958 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		management.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		management_ext.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		msvcp140.dll:Microsoft® C Runtime Library:14.29.30139.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.22621.3374 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Fournisseur de service Sockets 2.0 de Microsoft Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:Fournisseur Shim d’affectation de noms de messagerie:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Routeur Windows NCrypt:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		netutils.dll:Net Win32 API Helpers DLL:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
+		nio.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:DLL Couche NT:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		opus4j.dll
+		perfos.dll:DLL d’objets Performances système Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:Fournisseur d’espace de noms PNRP:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Bibliothèque d’utilitaires légers du Shell:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		sqlite-3.47.2.0-569264a5-434d-404d-91be-1254fe27d5e0-sqlitejdbc.dll
+		srvcli.dll:Server Service Client DLL:10.0.22621.4249 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.22621.3593 (WinBuild.160101.0800):Microsoft Corporation
+		urlmon.dll:Extensions OLE32 pour Win32:11.00.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Bibliothèque de thèmes Ux Microsoft:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.29.30139.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+		win32u.dll:Win32u:10.0.22621.5262 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:API de stockage Microsoft WinRT:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:DLL de types de base Windows:10.0.22621.4830 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.22621.3958 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:17.0.8.0:Microsoft
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:105)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 233959680 bytes (223 MiB) / 763363328 bytes (728 MiB) up to 6392119296 bytes (6096 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 167 Stepping 1
+	Microarchitecture: Rocket Lake
+	Frequency (GHz): 2.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Parsec Virtual Display Adapter
+	Graphics card #0 vendor: Parsec Cloud, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=0.45.0.0
+	Graphics card #1 name: NVIDIA GeForce GTX 1650
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x1f82
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.7270
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 30601.62
+	Virtual memory used (MB): 12174.77
+	Swap memory total (MB): 22528.00
+	Swap memory used (MB): 429.24
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx6096m
+	Fabric Mods: 
+		ambientsounds: AmbientSounds 6.1.9
+		architectury: Architectury 9.2.14
+		athena: Athena 3.1.2
+		axiom: Axiom 4.7.1
+			com_moulberry_axiomclientapi: axiomclientapi 1.0.0
+			com_moulberry_mixinconstraints: mixinconstraints 1.0.8
+		badoptimizations: BadOptimizations 2.2.2
+		chat_heads: Chat Heads 0.13.18
+		chipped: Chipped 3.0.7
+		controlling: Controlling For Fabric 12.0.2
+		copycats: Create: Copycats+ 2.2.2+mc.1.20.1-fabric
+		create: Create 0.5.1-j-build.1631+mc1.20.1
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			flywheel: Flywheel 0.6.11-4
+			milk: Milk Lib 1.2.60
+				dripstone_fluid_lib: Dripstone Fluid Lib 3.0.2
+			porting_lib_accessors: Porting Lib Accessors 2.3.8+1.20.1
+			porting_lib_base: Porting Lib Base 2.3.8+1.20.1
+				com_electronwill_night-config_core: core 3.6.6
+				com_electronwill_night-config_toml: toml 3.6.6
+				porting_lib_attributes: Porting Lib Attributes 2.3.8+1.20.1
+				porting_lib_common: Porting Lib Common 2.3.8+1.20.1
+				porting_lib_config: Porting Lib Config 2.3.8+1.20.1
+				porting_lib_core: Porting Lib Core 2.3.8+1.20.1
+				porting_lib_fluids: Porting Lib Fluids 2.3.8+1.20.1
+				porting_lib_gui_utils: Porting Lib Gui Utils 2.3.8+1.20.1
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.3.8+1.20.1
+				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.3.8+1.20.1
+				porting_lib_utility: Porting Lib Utility 2.3.8+1.20.1
+			porting_lib_brewing: Porting Lib Brewing 2.3.8+1.20.1
+			porting_lib_client_events: Porting Lib Client Events 2.3.8+1.20.1
+			porting_lib_entity: Porting Lib Entity 2.3.8+1.20.1
+			porting_lib_extensions: Porting Lib Extensions 2.3.8+1.20.1
+			porting_lib_models: Porting Lib Models 2.3.8+1.20.1
+				porting_lib_model_loader: Porting Lib Model Loader 2.3.8+1.20.1
+			porting_lib_networking: Porting Lib Networking 2.3.8+1.20.1
+			porting_lib_obj_loader: Porting Lib Obj Loader 2.3.8+1.20.1
+			porting_lib_tags: Porting Lib Tags 3.0
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.8+1.20.1
+			porting_lib_transfer: Porting Lib Transfer 2.3.8+1.20.1
+			reach-entity-attributes: Reach Entity Attributes 2.4.0
+			registrate-fabric: Registrate for Fabric 1.3.79-MC1.20.1
+				porting_lib_data: Porting Lib Data 2.1.1090+1.20
+					porting_lib_gametest: Porting Lib GameTest 2.1.1090+1.20
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.1090+1.20
+					porting_lib_model_materials: Porting Lib Model Materials 2.1.1090+1.20
+		creativecore: CreativeCore 2.12.33
+			net_minecraftforge_eventbus: eventbus 6.0.3
+		cubes-without-borders: Cubes Without Borders 3.0.0+mc1.20
+		debugify: Debugify 1.20.1+2.0
+		distanthorizons: Distant Horizons 2.3.2-b
+		dynamic_fps: Dynamic FPS 3.9.3
+			net_lostluma_battery: battery 1.3.0
+		dynamiccrosshair: Dynamic Crosshair 9.3
+			dynamiccrosshair-api: DynamicCrosshair API 1.1
+			libbamboo: LibBamboo 2.2
+		enhancedblockentities: Enhanced Block Entities 0.9+1.20
+			advanced_runtime_resource_pack: Runtime Resource Pack 0.6.7
+			spruceui: SpruceUI 5.0.0+1.20
+		entityculling: EntityCulling 1.7.4
+		fabric-api: Fabric API 0.92.5+1.20.1
+			fabric-api-base: Fabric API Base 0.4.32+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.37+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.14+1802ada577
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.12+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.3+924f046a77
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.42+1802ada577
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.3+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.35+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.14+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.52+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.66+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.13+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.6+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.20+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.2+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.6+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.55+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.1+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.4+13a40c6677
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.64+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.41+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.29+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.14+1802ada577
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.38+1802ada577
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.36+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.23+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.3+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.47+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.10+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.52+1802ada577
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.4+1802ada577
+			fabric-models-v0: Fabric Models (v0) 0.4.3+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.13+13a40c6677
+			fabric-networking-v0: Fabric Networking (v0) 0.3.53+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.5+e35120df77
+			fabric-particles-v1: Fabric Particles (v1) 1.1.3+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.23+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.5+1802ada577
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.2+1802ada577
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.3+85287f9f77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.47+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.39+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.29+1802ada577
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.50+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.9+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.9+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.12+fb82e9d777
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.9+1802ada577
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.32+1802ada577
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.14+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.6+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.2+1802ada577
+		fabricloader: Fabric Loader 0.16.14
+		fancymenu: FancyMenu 3.5.0
+			com_github_keksuccino_japng: japng 0.5.3
+			com_github_rtyley_animated-gif-lib-for-java: animated-gif-lib-for-java animated-gif-lib-1.7
+		ferritecore: FerriteCore 6.0.1
+		forgeconfigapiport: Forge Config API Port 8.0.2
+		immediatelyfast: ImmediatelyFast 1.5.0+1.20.4
+			net_lenni0451_reflect: Reflect 1.3.4
+		immersiveui: ImmersiveUI 0.3.0
+		indium: Indium 1.0.36+mc1.20.1
+		iris: Iris 1.7.6+mc1.20.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		java: OpenJDK 64-Bit Server VM 17
+		konkrete: Konkrete 1.8.1
+		lazydfu: LazyDFU 0.1.3
+		lithium: Lithium 0.11.3
+		melody: Melody 1.0.3
+		memoryleakfix: Memory Leak Fix 1.1.5
+		minecraft: Minecraft 1.20.1
+		modernfix: ModernFix 5.21.0+mc1.20.1
+		modernui: Modern UI 3.11.1.6
+			com_github_ben-manes_caffeine_caffeine: caffeine 3.1.7
+			com_vladsch_flexmark_flexmark: flexmark 0.64.8
+			com_vladsch_flexmark_flexmark-util-ast: flexmark-util-ast 0.64.8
+			com_vladsch_flexmark_flexmark-util-builder: flexmark-util-builder 0.64.8
+			com_vladsch_flexmark_flexmark-util-collection: flexmark-util-collection 0.64.8
+			com_vladsch_flexmark_flexmark-util-data: flexmark-util-data 0.64.8
+			com_vladsch_flexmark_flexmark-util-dependency: flexmark-util-dependency 0.64.8
+			com_vladsch_flexmark_flexmark-util-format: flexmark-util-format 0.64.8
+			com_vladsch_flexmark_flexmark-util-html: flexmark-util-html 0.64.8
+			com_vladsch_flexmark_flexmark-util-misc: flexmark-util-misc 0.64.8
+			com_vladsch_flexmark_flexmark-util-sequence: flexmark-util-sequence 0.64.8
+			com_vladsch_flexmark_flexmark-util-visitor: flexmark-util-visitor 0.64.8
+		modmenu: Mod Menu 7.2.2
+		moonlight: Moonlight 1.20-2.13.83
+		mousetweaks: Mouse Tweaks 2.26
+		mru: Mineblock's Repeated Utilities 1.0.4+1.20.1+fabric
+		octolib: OctoLib 0.5.0.1
+			org_yaml_snakeyaml: snakeyaml 2.2
+		presencefootsteps: Presence Footsteps 1.10.1+1.20.1
+			kirin: Kirin UI 1.15.6+1.20.1
+		resourcefullib: Resourceful Lib 2.1.29
+			com_teamresourceful_bytecodecs: bytecodecs 1.0.2
+			com_teamresourceful_yabn: yabn 1.0.3
+		searchables: Searchables 1.0.3
+		skinlayers3d: 3d-Skin-Layers 1.7.5
+		sodium: Sodium 0.5.13+mc1.20.1
+		sodium-extra: Sodium Extra 0.5.9+mc1.20.1
+			caffeineconfig: CaffeineConfig 1.3.0+1.17
+		sound_physics_remastered: Sound Physics Remastered 1.20.1-1.4.12
+		sounds: Sounds 2.2.1+1.20.1+fabric
+			mixinextras: MixinExtras 0.5.0-beta.2
+		voicechat: Simple Voice Chat 1.20.1-2.5.30
+		worldedit: WorldEdit 7.2.15+6463-5ca4dff
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.1.0+1.20
+			com_twelvemonkeys_common_common-image: common-image 3.10.0-SNAPSHOT
+			com_twelvemonkeys_common_common-io: common-io 3.10.0-SNAPSHOT
+			com_twelvemonkeys_common_common-lang: common-lang 3.10.0-SNAPSHOT
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.10.0-SNAPSHOT
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.10.0-SNAPSHOT
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.10.0-SNAPSHOT
+	Flywheel Backend: Uninitialized
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>

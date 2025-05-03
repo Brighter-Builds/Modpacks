@@ -1,0 +1,31 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2025-05-03 21:35:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-03 21:33:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-05-03 21:35:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2025-05-03 21:33:41 +0200",
+      "minecraft:beach": "2025-05-03 21:33:37 +0200",
+      "minecraft:river": "2025-05-03 21:36:07 +0200",
+      "minecraft:flower_forest": "2025-05-03 21:36:08 +0200",
+      "minecraft:plains": "2025-05-03 21:36:11 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
